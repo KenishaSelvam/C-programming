@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    char ch='M';
+    printf("%c",ch);
+
+    return 0;
+}
