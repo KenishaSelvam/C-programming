@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
 
-    int n;
-    scanf("%d",&n);
-    if(n='a','e','i','o','u')
+    char ch;
+    scanf("%c",&ch);
+    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
     {
         printf("vowel");
     }
@@ -12,4 +12,5 @@ int main(){
        printf("consonant"); 
     }
         return 0;
+
 }
