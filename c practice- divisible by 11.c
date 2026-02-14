@@ -12,4 +12,4 @@ int main(){
         printf("none");
     }
     return 0;
-}
+}.0**
