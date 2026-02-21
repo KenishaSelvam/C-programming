@@ -4,7 +4,7 @@ int main()
 {
     int n,i=0;
     scanf("%d",&n);
-    int noise,violations,streak,maxstreak=0;
+    int noise,violations=0,streak=0,maxstreak=0;
     while(i<n)
     {
         scanf("%d",&noise);
@@ -22,6 +22,7 @@ int main()
     i++;
     }
     printf("noise violations:%d\n",violations);
-    printf("lomgest violation streak:%d",streak);
+    printf("longest violation streak:%d",streak);
     return 0;
+
 }
